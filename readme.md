@@ -8,9 +8,9 @@
 >> Our program will display a selection of animals on the screen. We’ll be allowed to decide if we want to include a background or not. Clicking an animal will cause a fact to be randomly selected from a list of potential options. The selected fact will pop up on the screen. As we keep clicking, we’ll be able to see different facts.
 
 
-Tasks
+**Tasks**
 
-*Add a Title
+- Add a Title:
 1.
 On line 1 in app.js you should see an import statement. This is importing the animals object from animals.js. Feel free to take a look at it now, but we’ll be coming back to it in later tasks.
 
@@ -39,7 +39,7 @@ Let’s pass in animalFacts as the JSX expression that we want to be compiled an
 When finished, click Save. If all goes well, we should see the text ‘Click an animal for a fun fact!’ appear on the screen!
 
 
-*Add a Background
+- Add a Background:
 5.
 Let’s add a background!
 
@@ -60,7 +60,7 @@ Wrap the current < h1 > element and our new background variable inside of < div 
 Click Save. If everything is working as it should, we should see our background image showing up underneath the title!
 
 
-*Add an Array of Images
+- Add an Array of Images:
 7.
 Use a for...in loop to iterate over the animals object that we’re importing on line 1. Before the animalFacts definition, define an images array. For each animal, add a new < img /> to that array.
 
@@ -82,7 +82,7 @@ Within the animalFacts JSX, underneath {background}, create a <div>. Give it a c
 Finally, click Save. We should see our animals!
 
 
-*Add an Event Listener
+- Add an Event Listener:
 9.
 Now that we have our animals displaying on the screen, we’re ready to add an event listener! But first, let’s write a function to handle this event.
 
@@ -106,7 +106,7 @@ Inside displayFact() use document.getElementById('fact') to grab the < p > eleme
 Now save the code and click on an animal. We should see a fact pop up on the screen!
 
 
-*Extra Credit
+- Extra Credit:
 12.
 Let’s add one last feature to our awesome app!
 
